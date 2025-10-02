@@ -1,8 +1,14 @@
 import 'package:flutter/material.dart';
 import 'screens/Onboarding_Screens.dart'; // เพิ่ม import
-import 'screens/home_screen.dart';
 
-void main() {
+
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized(); // Fix: initialize binding before Firebase
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(const MyApp());
 }
 

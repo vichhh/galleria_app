@@ -97,17 +97,47 @@ class ProfileScreen extends StatelessWidget {
                 ),
               ),
               const SizedBox(height: 12),
-              // Edit Profile Button
-              ElevatedButton.icon(
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.grey[700], // สีเทาเข้ม
-                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
-                  elevation: 4,
-                  padding: const EdgeInsets.symmetric(horizontal: 28, vertical: 10),
+              // Edit Profile Button (changed to orange gradient)
+              GestureDetector(
+                onTap: () {
+                  // TODO: Edit profile action
+                  print('Edit Profile tapped');
+                },
+                child: Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 34, vertical: 14),
+                  decoration: BoxDecoration(
+                    gradient: const LinearGradient(
+                      colors: [Color(0xFFFF8A3D), Color(0xFFFF5A0A)],
+                      begin: Alignment.topLeft,
+                      end: Alignment.bottomRight,
+                    ),
+                    borderRadius: BorderRadius.circular(26),
+                    boxShadow: [
+                      BoxShadow(
+                        color: const Color(0xFFFF5A0A).withOpacity(0.45),
+                        blurRadius: 18,
+                        offset: const Offset(0, 6),
+                      ),
+                    ],
+                    border: Border.all(color: Colors.white.withOpacity(0.08), width: 1),
+                  ),
+                  child: const Text(
+                    'Edit Profile',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 16,
+                      letterSpacing: 1.1,
+                      shadows: [
+                        Shadow(
+                          color: Colors.black38,
+                          blurRadius: 6,
+                          offset: Offset(0, 2),
+                        ),
+                      ],
+                    ),
+                  ),
                 ),
-                icon: const Icon(Icons.edit, color: Colors.white),
-                label: const Text('Edit Profile', style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold)),
-                onPressed: () {},
               ),
               const SizedBox(height: 18),
               // Gallery Grid

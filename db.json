@@ -1,0 +1,117 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Bugatti Chiron Super Sport",
+      "price": 3900000,
+      "detail": "8.0L W16 quad‑turbo.",
+      "image": "https://cdn.motor1.com/images/mgl/QE3q0/s1/2021-bugatti-chiron-super-sport-300.jpg",
+      "category": "hypercar",
+      "year": 2021,
+      "bodyType": "Coupe",
+      "power": 1600,
+      "cylinders": 16,
+      "topSpeed": 440,
+      "fuelType": "Gasoline"
+    },
+    {
+      "id": 2,
+      "name": "Koenigsegg Jesko",
+      "price": 3500000,
+      "detail": "Twin‑turbo V8 track weapon.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2fvtXC42_sJmuzlQsEljalbdQ-DGoNgetHuvFZLBGodAPJrt1VpsUwA4HD-0gD-Q62zI&usqp=CAU",
+      "category": "hypercar",
+      "year": 2022,
+      "bodyType": "Coupe",
+      "power": 1600,
+      "cylinders": 8,
+      "topSpeed": 480,
+      "fuelType": "Gasoline"
+    },
+    {
+      "id": 3,
+      "name": "Ferrari SF90 Stradale",
+      "price": 625000,
+      "detail": "Hybrid V8 with e‑boost.",
+      "image": "https://www.grandprix.co.th/wp-content/uploads/2023/06/ferrari-sf90-xx-stradale-spider-world-premiere-5.jpeg",
+      "category": "hypercar",
+      "year": 2023,
+      "bodyType": "Coupe",
+      "power": 986,
+      "cylinders": 8,
+      "topSpeed": 340,
+      "fuelType": "Hybrid"
+    },
+    {
+      "id": 4,
+      "name": "Lamborghini Revuelto",
+      "price": 600000,
+      "detail": "Hybrid V12 flagship.",
+      "image": "https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/news/2023/03_29_revuelto/cover_m.jpg",
+      "category": "hypercar",
+      "year": 2023,
+      "bodyType": "Coupe",
+      "power": 1001,
+      "cylinders": 12,
+      "topSpeed": 350,
+      "fuelType": "Hybrid"
+    },
+
+    {
+      "id": 5,
+      "name": "Porsche 911 Carrera S",
+      "price": 124000,
+      "detail": "Rear‑engined icon.",
+      "image": "https://www.headlightmag.com/hlmwp/wp-content/uploads/2019/03/7-porsche-911-carrera-992-2019.jpg",
+      "category": "sport",
+      "year": 2020,
+      "bodyType": "Coupe",
+      "power": 443,
+      "cylinders": 6,
+      "topSpeed": 308,
+      "fuelType": "Gasoline"
+    },
+    {
+      "id": 6,
+      "name": "BMW M4 Competition",
+      "price": 78900,
+      "detail": "Twin‑turbo straight‑six.",
+      "image": "https://www.topgear.com/sites/default/files/2024/10/1-BMW-M4-review-2024-UK.jpg",
+      "category": "sport",
+      "year": 2021,
+      "bodyType": "Coupe",
+      "power": 503,
+      "cylinders": 6,
+      "topSpeed": 290,
+      "fuelType": "Gasoline"
+    },
+    {
+      "id": 7,
+      "name": "Audi R8 V10",
+      "price": 158000,
+      "detail": "NA V10 drama.",
+      "image": "https://cdn.motor1.com/images/mgl/qjRXZ/s1/audi-r8-v10-decennium.jpg",
+      "category": "sport",
+      "year": 2019,
+      "bodyType": "Coupe",
+      "power": 562,
+      "cylinders": 10,
+      "topSpeed": 328,
+      "fuelType": "Gasoline"
+    },
+    {
+      "id": 8,
+      "name": "Mercedes‑AMG GT",
+      "price": 118000,
+      "detail": "Front‑mid V8 GT.",
+      "image": "https://cdn.motor1.com/images/mgl/XBGv4l/s3/mercedes-amg-gt-gt2-pro.jpg",
+      "category": "sport",
+      "year": 2018,
+      "bodyType": "Coupe",
+      "power": 469,
+      "cylinders": 8,
+      "topSpeed": 304,
+      "fuelType": "Gasoline"
+    }
+  ]
+}
